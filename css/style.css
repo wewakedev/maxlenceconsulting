@@ -402,7 +402,10 @@ ul.webextralinks li a:hover{
 .sideactions{
 	position: absolute;
 	right:0%;
-	top: 0%;
+	top: 7%;
+}
+button#modal_view_right {
+    background: transparent;
 }
 
 .bg-gradient{
@@ -873,5 +876,9 @@ ul.ab-form-list{
 @media (max-width: 500px) {
 	.pricecardtitle,.question{
 		margin-top:-12rem;
+	}
+	.sideactions{
+		right: 7%;
+    top: 0%;
 	}
   }
